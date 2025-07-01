@@ -3,6 +3,6 @@
 </div>
 
 <div>
-    <h3 class="font-semibold text-lg mb-2">Tareas compartidas conmigo</h3>
+    <h2 class="font-semibold text-lg mb-2">Tareas compartidas conmigo</h2>
     @include('tasks.partials.table', ['tasks' => $sharedTasks, 'isShared' => true])
 </div>

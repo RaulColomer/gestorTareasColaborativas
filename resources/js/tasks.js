@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
+    // Funcion para mostrar el mensaje de error
     function showJsMessage(message, type = 'error') {
         const container = document.getElementById('js-messages');
         container.innerHTML = `
@@ -111,6 +112,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // Llama al inicializar
+    // Llama a la funcion para actualizar los estados de la tarea
     updateStatusTaskHandlers();
 });

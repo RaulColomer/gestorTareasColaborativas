@@ -65,3 +65,15 @@ php artisan serve
 ## Abre en el navegador:
 
 http://127.0.0.1:8000
+
+## 🧑‍💻 Usuario de prueba
+
+Puedes usar estos usuarios para acceder a la aplicación:
+
+-   **Email:** test@gmail.com
+-   **Contraseña:** password123
+
+-   **Email:** admin@gmail.com
+-   **Contraseña:** password123
+
+(Se generan con los seeders del proyecto.)
