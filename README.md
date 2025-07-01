@@ -26,8 +26,10 @@ cd gestorTareasColaborativas
 
 ## Instalar dependencias
 
+```bash
 composer install
 npm install
+```
 
 ## Copiar el archivo de entorno y configura:
 
@@ -35,8 +37,10 @@ cp .env.example .env
 
 ## Edita .env y configura la conexión de base de datos para SQLite:
 
+```bash
 DB_CONNECTION=sqlite
 DB_DATABASE=/ruta/absoluta/a/database/database.sqlite
+```
 
 ## Genera la clave de la app:
 
