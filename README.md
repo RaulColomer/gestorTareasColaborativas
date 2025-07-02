@@ -42,6 +42,10 @@ DB_CONNECTION=sqlite
 DB_DATABASE=/ruta/absoluta/a/database/database.sqlite
 ```
 
+## Creamos la DB vacía usando el comando:
+
+New-Item database/database.sqlite
+
 ## Genera la clave de la app:
 
 php artisan key:generate
