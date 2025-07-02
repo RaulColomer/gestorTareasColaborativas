@@ -44,8 +44,10 @@ DB_DATABASE=/ruta/absoluta/a/database/database.sqlite
 
 ## Creamos la DB vacía usando el comando:
 
+```bash
 Windows: New-Item database/database.sqlite
 Linux/Mac: touch database/database.sqlite
+```
 
 ## Genera la clave de la app:
 
